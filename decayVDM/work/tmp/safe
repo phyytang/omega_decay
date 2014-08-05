@@ -1,0 +1,20 @@
+#Model 0
+#ForceUG 0
+#nIn 1
+#nOut 2
+#Process Xm -> h,A
+#nTot 3
+*Xm=Xm
+*h=h
+*A=A
+#Remove_Virtual 
+#Remove_X 
+#nSubproc(ampl) 1
+#nSubproc(squared) 0
+#Nc==inf  0
+#NoColorChains 0
+#NoDiagrams  0
+#T-widths    0
+#VVdecays    0  0
+#NewCodes  0
+#ExitCode 1

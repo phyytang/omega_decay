@@ -1,0 +1,39 @@
+VDM (un. gauge)
+ Constraints 
+ Name  |> Expression                                                                                                                                                                       <|
+CW     |sqrt(1-SW^2) % cos of the Weinberg angle
+c12    |sqrt(1-s12^2) % parameter  of C-K-M matrix
+c23    |sqrt(1-s23^2) % parameter  of C-K-M matrix
+c13    |sqrt(1-s13^2) % parameter  of C-K-M matrix
+Vud    |c12*c13 % C-K-M matrix element
+Vus    |s12*c13 % C-K-M matrix element
+Vub    |s13 % C-K-M matrix element
+Vcd    |-s12*c23-c12*s23*s13 % C-K-M matrix element
+Vcs    |c12*c23-s12*s23*s13 % C-K-M matrix element
+Vcb    |s23*c13 % C-K-M matrix element
+Vtd    |s12*s23-c12*c23*s13 % C-K-M matrix element
+Vts    |-c12*s23-s12*c23*s13 % C-K-M matrix element
+Vtb    |c23*c13 % C-K-M matrix element
+MW     |MZ*CW % mass of W boson
+vP     |MX/gx/QP % vev of Phi
+SAH    |sin(aH) % sin(aH)
+CAH    |sqrt(1-SAH^2) % cos(aH)
+vH     |2*MW/EE*SW % vev of the SM Higgs H
+laH    |2*(MH1^2*CAH^2+MH2^2*SAH^2)/vH^2 % lambda_H
+laP    |2*(MH1^2*SAH^2+MH2^2*CAH^2)/vP^2 % lambda_P
+laHP   |(MH2^2-MH1^2)*CAH*SAH/vH/vP % lambda_HP
+B00000 |2*SW*CAH*MW*laH-2*SAH^2*SW*CAH*MW*laH-SAH^3*EE*laP*vP-2*SAH*EE*laHP*vP+2*SAH^3*EE*laHP*vP
+B00001 |B00000+4*SAH^2*SW*CAH*MW*laHP
+B00002 |6*SAH*SW*MW*laH-6*SAH^3*SW*MW*laH+3*SAH^2*CAH*EE*laP*vP+2*CAH*EE*laHP*vP-6*SAH^2*CAH*EE*laHP*vP
+B00003 |B00002-8*SAH*SW*MW*laHP+12*SAH^3*SW*MW*laHP
+B00004 |6*SAH^2*SW*CAH*MW*laH-3*SAH*EE*laP*vP+3*SAH^3*EE*laP*vP+4*SAH*EE*laHP*vP-6*SAH^3*EE*laHP*vP
+B00005 |B00004+4*SW*CAH*MW*laHP-12*SAH^2*SW*CAH*MW*laHP
+B00006 |2*SAH^3*SW*MW*laH+CAH^2*CAH*EE*laP*vP+2*SAH^2*CAH*EE*laHP*vP+4*SAH*SW*MW*laHP-4*SAH^3*SW*MW*laHP
+B00007 |laH-2*SAH^2*laH+SAH^4*laH+SAH^4*laP+4*SAH^2*laHP
+B00008 |B00007-4*SAH^4*laHP
+B00009 |CAH^2*laH-SAH^2*laP+4*SAH^2*laHP-2*laHP
+B00010 |3*SAH^2*laH-3*SAH^4*laH+3*SAH^2*laP-3*SAH^4*laP+2*laHP
+B00011 |B00010-12*SAH^2*laHP+12*SAH^4*laHP
+B00012 |SAH^2*laH-CAH^2*laP-4*SAH^2*laHP+2*laHP
+B00013 |SAH^4*laH+laP-2*SAH^2*laP+SAH^4*laP+4*SAH^2*laHP
+B00014 |B00013-4*SAH^4*laHP

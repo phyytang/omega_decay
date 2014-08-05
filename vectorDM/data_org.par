@@ -1,0 +1,6 @@
+# file to improve default parameters
+MH1	125
+MX      400
+MH2	300
+#aH	0.1
+#gx	1
